@@ -1,0 +1,64 @@
+@charset"UTF-8";
+
+h1{
+	text-align: center;
+	color: whitesmoke;
+}
+h2{
+	text-align: center;
+	color: white;
+}
+p{
+	text-align: justify;
+	color: gray;
+	text-indent: 30px;
+	font-size: 18px;
+}
+body{
+    background-image: url(../trovao.webp);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.fim{
+	text-align: center;
+	color: white;
+}
+figure{
+	text-align: center;
+}
+img{
+	width: 500px;
+	height: 300px;
+}
+.borda img{
+	border: 8px solid rgb(0, 4, 255);
+	border-radius: 10px;
+}
+
+#menu ul {
+  list-style:none;
+  padding: 1px;
+  margin: 0px;
+  display: flex;
+  background-color: #222222;
+  justify-content: center;
+}
+
+#menu li {
+  margin: 0px;
+}
+
+#menu a {
+  display: block;
+  padding: 30px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: arial;
+}
+
+#menu a:hover {
+  background-color: #000000;
+  color: #ffffff8c;
+  border-radius: 5px;
+}
